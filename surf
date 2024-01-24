@@ -1,3 +1,4 @@
+
 KH 1 = vmess, 220.158.233.184, 10000, username=eab0e4aa-b746-11ee-aa48-9b7b632a5199, udp-relay=true, ws=true, ws-path=/vpnjantit, ws-headers=Host:m.mobilelegends.com, vmess-aead=true
 
 TH 1 = vmess, 185.78.165.153, 10000, username=996a75f4-baeb-11ee-aafc-00163ea61c9a, udp-relay=true, ws=true, ws-path=/vpnjantit, ws-headers=Host:m.mobilelegends.com, vmess-aead=true
