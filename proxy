@@ -1,4 +1,4 @@
-#!MANAGED-CONFIG https://raw.github.usercontent.com/nthtosay1/conf/main/proxy interval=345600 strict=false
+#!MANAGED-CONFIG https://raw.githubusercontent.com/nthtosay1/conf/main/proxy interval=345600 strict=false
 
 [General]
 dns-server = system, 8.8.8.8, 8.8.4.4, 9.9.9.9:9953
@@ -9,7 +9,7 @@ internet-test-url = http://m.mobilelegends.com
 test-timeout = 1
 
 [Proxy Group]
-External = url-test, policy-path=https://raw.github.usercontent.com/nthtosay1/conf/main/proxy,
+External = url-test, policy-path=https://raw.githubusercontent.com/nthtosay1/conf/main/proxy,
 
 [Rule]
 FINAL,External
