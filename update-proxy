@@ -1,15 +1,1 @@
-#!MANAGED-CONFIG https://raw.githubusercontent.com/nthtosay1/conf/main/update-proxy interval=345600 strict=false
-
-[General]
-dns-server = system, 8.8.8.8, 8.8.4.4, 9.9.9.9:9953
-http-listen = 0.0.0.0:8080
-socks5-listen = 0.0.0.0:1080
-proxy-test-url = http://m.mobilelegends.com
-internet-test-url = http://m.mobilelegends.com
-test-timeout = 1
-
-[Proxy Group]
-External = url-test, policy-path=https://raw.githubusercontent.com/nthtosay1/conf/main/proxy,
-
-[Rule]
-FINAL,External
+fgsfgfdgfdg
