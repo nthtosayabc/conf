@@ -11,3 +11,5 @@ test-timeout = 1
 [Proxy Group]
 External = url-test, policy-path=https://raw.githubusercontent.com/nthtosay1/conf/main/proxy,
 
+[Rule]
+FINAL,External
