@@ -8,15 +8,8 @@ proxy-test-url = http://m.mobilelegends.com
 internet-test-url = http://m.mobilelegends.com
 test-timeout = 1
 
-[Proxy]
-SG Melbi = trojan, sg-4.test3.net, 443, password=73a87be0-a4a9-11ee-922a-1239d0255272, skip-cert-verify=true, sni=m.mobilelegends.com
-
-ID Herza = trojan, id-1.test3.net, 443, password=34e5eeb0-b747-11ee-8556-1239d0255272, skip-cert-verify=true, sni=m.mobilelegends.com
-
 [Proxy Group]
 external = url-test,  policy-path=https://raw.githubusercontent.com/nthtosay1/conf/main/proxy,
-
-internal = url-test, include-all-proxies = true,
 
 [Rule]
 FINAL,external
