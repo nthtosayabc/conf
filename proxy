@@ -1,6 +1,15 @@
+#!MANAGED-CONFIG https://raw.github.usercontent.com/nthtosay1/conf/main/proxy interval=345600 strict=false
 
-KH 1 = vmess, 220.158.233.184, 10000, username=eab0e4aa-b746-11ee-aa48-9b7b632a5199, udp-relay=true, ws=true, ws-path=/vpnjantit, ws-headers=Host:m.mobilelegends.com, vmess-aead=true
+[General]
+dns-server = system, 8.8.8.8, 8.8.4.4, 9.9.9.9:9953
+http-listen = 0.0.0.0:8080
+socks5-listen = 0.0.0.0:1080
+proxy-test-url = http://m.mobilelegends.com
+internet-test-url = http://m.mobilelegends.com
+test-timeout = 1
 
-TH 1 = vmess, 185.78.165.153, 10000, username=996a75f4-baeb-11ee-aafc-00163ea61c9a, udp-relay=true, ws=true, ws-path=/vpnjantit, ws-headers=Host:m.mobilelegends.com, vmess-aead=true
+[Proxy Group]
+External = url-test, policy-path=https://raw.github.usercontent.com/nthtosay1/conf/main/proxy,
 
-SG Melbi = trojan, sg-4.test3.net, 443, password=73a87be0-a4a9-11ee-922a-1239d0255272, skip-cert-verify=true, sni=m.mobilelegends.com
+[Rule]
+FINAL,External
