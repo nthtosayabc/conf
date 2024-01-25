@@ -1,4 +1,4 @@
-#!MANAGED-CONFIG    gdgdgdg interval=345600 strict=false
+#!MANAGED-CONFIG https://raw.githubusercontent.com/nthtosay1/conf/main/update-proxy interval=345600 strict=false
 
 [General]
 dns-server = system, 8.8.8.8, 8.8.4.4, 9.9.9.9:9953
