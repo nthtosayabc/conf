@@ -1,0 +1,9 @@
+#!MANAGED-CONFIG https://conf.nthtosay.workers.dev interval=604800 strict=false
+
+[General]
+dns-server = system, 8.8.8.8, 8.8.4.4, 9.9.9.9:9953
+http-listen = 0.0.0.0:8080
+socks5-listen = 0.0.0.0:1080
+proxy-test-url = http://m.mobilelegends.com
+internet-test-url = http://m.mobilelegends.com
+test-timeout = 1
