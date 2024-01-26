@@ -1,9 +1,10 @@
-### Surfboard
-managed config [profile](https://raw.githubusercontent.com/nthtosay1/conf/main/surfboard/profile)
+### surfboard
+Auto update `managed-config` [profile](https://raw.githubusercontent.com/nthtosay1/conf/main/surfboard/profile)
 
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/2dust/clashn)](https://github.com/2dust/clashn/commits/master)
-[![GitHub Releases](https://img.shields.io/github/downloads/2dust/clashn/latest/total?logo=github)](https://github.com/2dust/clashn/releases)
-  
+External proxy `policy-path` [proxy](https://raw.githubusercontent.com/nthtosay1/conf/main/surfboard/proxy)
+
+local IP `WIFI` [local](https://raw.githubusercontent.com/nthtosay1/conf/main/surfboard/local)
+
 ### clash
 1. Download `clashN.zip` from [releases](https://github.com/2dust/clashN/releases)
 2. Unzip to any folder you want
