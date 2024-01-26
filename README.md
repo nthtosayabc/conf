@@ -3,7 +3,7 @@ Auto update `managed-config` [profile](https://raw.githubusercontent.com/nthtosa
 
 External proxy `policy-path` [proxy](https://raw.githubusercontent.com/nthtosay1/conf/main/surfboard/proxy)
 
-local IP `WIFI` [local](https://raw.githubusercontent.com/nthtosay1/conf/main/surfboard/local)
+local IP `LAN share` [local](https://raw.githubusercontent.com/nthtosay1/conf/main/surfboard/local)
 
 ### clash
 1. Download `clashN.zip` from [releases](https://github.com/2dust/clashN/releases)
