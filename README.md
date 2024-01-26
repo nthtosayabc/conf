@@ -1,23 +1,23 @@
-# ClashN
-A clash client for Wndows, supports [Mihomo core](https://github.com/MetaCubeX/Mihomo)
+### Surfboard
+managed config [profile](https://raw.githubusercontent.com/nthtosay1/conf/main/surfboard/profile)
 
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/2dust/clashn)](https://github.com/2dust/clashn/commits/master)
 [![GitHub Releases](https://img.shields.io/github/downloads/2dust/clashn/latest/total?logo=github)](https://github.com/2dust/clashn/releases)
   
-### How to use
+### clash
 1. Download `clashN.zip` from [releases](https://github.com/2dust/clashN/releases)
 2. Unzip to any folder you want
 3. Run ClashN.exe
 
 
 
-### Tips
+### ovpn
 
 - You can also add `v2ray` subscription to `ClashN`, just enable `Subcription conversion` when you add a profile.
 
 
 
-### Requirements  
+### v2ray
 - Microsoft [.NET 8.0 Desktop Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/8.0/runtime) 
 - Mihomo core [https://github.com/MetaCubeX/Mihomo/releases](https://github.com/MetaCubeX/Mihomo/releases)
 
