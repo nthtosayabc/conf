@@ -11,7 +11,7 @@ test-timeout = 1
 [Proxy]
 KH 1 = vmess, 220.158.233.184, 10000, username=f230b2ac-c1c1-11ee-a281-3b0ef849b814, udp-relay=true, ws=true, ws-path=/vpnjantit, ws-headers=Host:m.line.me, vmess-aead=true
 
-TH 1 = vmess, 185.78.165.153, 10000, username=da59444e-c1c8-11ee-ad70-00163ea61c9a, udp-relay=true, ws=true, ws-path=/vpnjantit, ws-headers=Host:m.mobilelegends.com|Host:m.line.me, vmess-aead=true
+TH 1 = vmess, 185.78.165.153, 10000, username=da59444e-c1c8-11ee-ad70-00163ea61c9a, udp-relay=true, ws=true, ws-path=/vpnjantit, ws-headers=Host:m.mobilelegends.com, vmess-aead=true
 
 SG Melbi = trojan, sg-4.test3.net, 443, password=775eddd0-bd24-11ee-b2cb-1239d0255272, skip-cert-verify=true, sni=m.line.me
 
