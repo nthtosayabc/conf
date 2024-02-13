@@ -20,7 +20,7 @@ ID Herza = trojan, id-1.test3.net, 443, password=34e5eeb0-b747-11ee-8556-1239d02
 SG V1 = trojan, sgt-1.optnl.com, 443, password=opentunnel.net-nthtosay, skip-cert-verify=true, sni=m.line.me, udp-relay=true
 
 [Proxy Group]
-LIST = select, FIRST PING ⌥, AUTO ⍚, DIRECT, include-all-proxies = true
+LIST = select, AUTO ⌥, BEST PING ⍚, DIRECT, include-all-proxies = true
 
 AUTO ⌥ = fallback, include-all-proxies = true, url=http://m.mobilelegends.com, interval=600, timeout=5
 
