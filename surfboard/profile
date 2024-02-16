@@ -9,9 +9,9 @@ internet-test-url = http://m.mobilelegends.com
 test-timeout = 1
 
 [Proxy]
-KH 1 = vmess, 220.158.233.184, 10000, username=f503965a-c713-11ee-8188-d36e7b2ac23c, udp-relay=true, ws=true, ws-path=/vpnjantit, ws-headers=Host:m.mobilelegends.com, vmess-aead=true
+KH 1 = vmess, 220.158.233.184, 10000, username=ffa34136-ccb9-11ee-99be-271832a15459, udp-relay=true, ws=true, ws-path=/vpnjantit, ws-headers=Host:m.mobilelegends.com, vmess-aead=true
 
-TH 1 = vmess, 185.78.165.153, 10000, username=da59444e-c1c8-11ee-ad70-00163ea61c9a, udp-relay=true, ws=true, ws-path=/vpnjantit, ws-headers=Host:m.mobilelegends.com, vmess-aead=true
+TH 1 = vmess, 185.78.165.153, 10000, username=a44d93da-ccba-11ee-839e-00163ea61c9a, udp-relay=true, ws=true, ws-path=/vpnjantit, ws-headers=Host:m.mobilelegends.com, vmess-aead=true
 
 SG Melbi = trojan, sg-4.test3.net, 443, password=775eddd0-bd24-11ee-b2cb-1239d0255272, skip-cert-verify=true, sni=m.mobilelegends.com
 
