@@ -19,12 +19,10 @@ SG Melbi = trojan, sg-4.test3.net, 443, password=775eddd0-bd24-11ee-b2cb-1239d02
 
 ID Herza = trojan, id-1.test3.net, 443, password=34e5eeb0-b747-11ee-8556-1239d0255272, skip-cert-verify=true, sni=m.mobilelegends.com
 
-SG V1 = trojan, sgt-1.optnl.com, 443, password=opentunnel.net-nthtosay, skip-cert-verify=true, sni=m.mobilelegends.com, udp-relay=true
-
 [Proxy Group]
 LIST = select, AUTO ⌥, BEST PING ⍚, DIRECT, include-all-proxies = true
 
-AUTO ⌥ = fallback, include-all-proxies = true, url=http://m.mobilelegends.com, interval=600, timeout=5
+AUTO ⌥ = fallback, include-all-proxies = true, url=http://m.mobilelegends.com, interval=400, timeout=5
 
 BEST PING ⍚ = url-test, include-all-proxies = true, url=http://m.mobilelegends.com, interval=600, tolerance=100, timeout=5
 
