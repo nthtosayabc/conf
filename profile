@@ -1,4 +1,4 @@
-#!MANAGED-CONFIG https://surf.nthtosay.workers.dev interval=604800 strict=false
+#!MANAGED-CONFIG https://surfbd.nthtosay.workers.dev interval=604800 strict=false
 
 [General]
 dns-server = system, 8.8.8.8, 8.8.4.4, 9.9.9.9:9953
