@@ -1,6 +1,6 @@
 ## surfboard
 
-Profile update [`managed-config`](https://raw.githubusercontent.com/nthtosayabc/conf/surf/profile)
+Profile update [`managed-config`](https://raw.githubusercontent.com/nthtosayabc/conf/surfbd/profile)
 ```
 https://surf.nthtosay.workers.dev
 ```
