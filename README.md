@@ -2,7 +2,7 @@
 
 Profile update [`managed-config`](https://raw.githubusercontent.com/nthtosayabc/conf/surfbd/profile)
 ```
-https://surf.nthtosay.workers.dev
+https://surfbd.nthtosay.workers.dev
 ```
 
 External proxy [`policy-path`](https://raw.githubusercontent.com/nthtosayabc/conf/surf/proxy)
