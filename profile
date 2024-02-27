@@ -7,11 +7,11 @@ socks5-listen = 0.0.0.0:1080
 test-timeout = 1
 
 [Proxy]
-KH 1 = vmess, 220.158.233.184, 10000, username=63933598-d250-11ee-b48d-8b3667319614 ,udp-relay=true, ws=true, ws-path=/vpnjantit, ws-headers=Host:m.mobilelegends.com, vmess-aead=true
+KH 1 = vmess, 220.158.233.184, 10000, username=c87b8b36-d59d-11ee-bce8-8b3ba1cc3b4b ,udp-relay=true, ws=true, ws-path=/vpnjantit, ws-headers=Host:m.mobilelegends.com, vmess-aead=true
 
 TH 1 = vmess, 185.78.165.153, 10000, username=a8b726b0-d251-11ee-ba40-00163ea61c9a ,udp-relay=true, ws=true, ws-path=/vpnjantit, ws-headers=Host:m.mobilelegends.com, vmess-aead=true
 
-SG Melbi = trojan, sg-4.test3.net, 443, password=775eddd0-bd24-11ee-b2cb-1239d0255272 ,skip-cert-verify=true, sni=m.mobilelegends.com
+SG Melbi = trojan, sg-4.test3.net, 443, password=35bbbfe0-d59e-11ee-8a72-1239d0255272 ,skip-cert-verify=true, sni=m.mobilelegends.com
 
 ID Herza = trojan, id-1.test3.net, 443, password=13b36800-d026-11ee-a100-1239d0255272 ,skip-cert-verify=true, sni=m.mobilelegends.com
 
