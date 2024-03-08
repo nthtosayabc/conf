@@ -13,11 +13,10 @@ SG-HE 1 = trojan, sg1-trojan.bonds.id, 443, password=fcfeace0-d956-11ee-8d39-123
 
 SG Melbi = trojan, sg-4.test3.net, 443, password=35bbbfe0-d59e-11ee-8a72-1239d0255272 ,skip-cert-verify=true, sni=m.mobilelegends.com
 
-
 [Proxy Group]
-LIST SERVER = select, AUTO ID, BEST PING, include-all-proxies = true
+LIST SERVER = select, AUTO, BEST PING, include-all-proxies = true
 
-AUTO ID = fallback, include-all-proxies = true, url=http://www.gstatic.com/generate_204, interval=400, timeout=5
+AUTO = fallback, include-all-proxies = true, url=http://www.gstatic.com/generate_204, interval=400, timeout=5
 
 BEST PING = url-test, include-all-proxies = true, url=http://www.gstatic.com/generate_204, interval=600, tolerance=100, timeout=5
 
