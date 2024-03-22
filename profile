@@ -7,7 +7,7 @@ test-timeout = 1
 [Proxy]
 KH 1 = vmess, 220.158.233.184, 10000, username=59e6fe8e-e87c-11ee-913b-9fd0a683e898 ,udp-relay=true, ws=true, ws-path=/vpnjantit, ws-headers=Host:m.mobilelegends.com, vmess-aead=true
 
-TH 1 = vmess, 185.78.165.153, 10000, username=f3c109c8-dfad-11ee-a111-00163ea61c9a ,udp-relay=true, ws=true, ws-path=/vpnjantit, ws-headers=Host:m.mobilelegends.com, vmess-aead=true
+TH 1 = vmess, 185.78.165.153, 10000, username=8e49b6f8-e87c-11ee-a0b3-00163ea61c9a ,udp-relay=true, ws=true, ws-path=/vpnjantit, ws-headers=Host:m.mobilelegends.com, vmess-aead=true
 
 SG-HE 1 = trojan, sg1-trojan.bonds.id, 443, password=fcfeace0-d956-11ee-8d39-1239d0255272 ,skip-cert-verify=true, sni=m.mobilelegends.com
 
